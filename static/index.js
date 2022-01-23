@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 49) return '寄！';
+    if (score <= 99) return '玩什么游戏？好好学习！';
+    if (score <= 149) return '来来来班主任给你当！';
+    if (score <= 199) return '真你妈有你的！';
     return '人？';
 }
 
